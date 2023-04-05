@@ -1,3 +1,20 @@
+##### 0.6-222@230404 2023-04-04
+*   Updated `nvtool` v1.8.0 (add PCI-E utilization along with output this info by `nvidia-info` tool)
+*   Improvements and fixes for `amd-ocl-install` tool (Please note tool still experimental so use at your own risk!)
+*   Fixed `disk-expand` on calculation size of partition to expand
+*   Fixed remote connections management (in many cases setting reset after reboot)
+*   Fixed `repomirror` in case of subfolder sync
+*   Implemented batch of changes for the upcoming Beta Image Release
+
+##### 0.6-221@230403 2023-04-03
+*   XMRig v6.19.2 (Slight bug fixes; Note see full changelog at https://github.com/xmrig/xmrig/releases/tag/v6.19.2)
+
+##### 0.6-221@230402 2023-04-02
+*   Rigel miner v1.3.11 (Minor performance/efficiency improvements on `NEXA` mining; Notes: see full release changelog at https://github.com/rigelminer/rigel/releases/tag/1.3.11)
+
+##### 0.6-221@230401 2023-04-01
+*   SRBMiner v2.2.4 (Improved mining performance on algorithm 'dynex' for AMD/Nvidia; Lowered devfee for algorithm 'dynex' to 2.5%; Small hashrate improvements on algorithms 'blake3_alephium' & 'blake3_ironfish' & lower power consumption; Notes: see full chagelog at https://github.com/doktor83/SRBMiner-Multi/releases/tag/2.2.4)
+
 ##### 0.6-221@230330 2023-03-30
 *   BzMiner v14.1.1 (Significantly improved `Kaspa` hashrate&efficiency, Improved `Nexa` and `Radiant` hashrate&efficiency; Notes: see full changelog at https://github.com/bzminer/bzminer/releases/tag/v14.1.1)
 
@@ -6,7 +23,7 @@
 *   lolMiner v1.72 (Improved `NEXA` mining performance by 4% on AMD Vega, Navi and Big Navi GPUs and by 2-3% on Nvidia Turing and Ampere GPUs)
 *   BzMiner v14.1.0 (Slight improvement to `Kaspa` hashrate/efficiency; Fixed duplicates on algos nexa, ironfish, zil; Notes: see full changelog at https://github.com/bzminer/bzminer/releases/tag/v14.1.0)
 *   Rigel miner v1.3.10 (Performance/efficiency improvements on `NEXA` mining; Notes: see full release changelog at https://github.com/rigelminer/rigel/releases/tag/1.3.10)
-*   XMRig v6.19.1 (Slight bug fixes)
+*   XMRig v6.19.1 (Slight bug fixes; https://github.com/xmrig/xmrig/releases/tag/v6.19.1)
 *   XMRig-MO v6.19.1-mo1 (synced with XMRig v6.19.1 origin)
 *   cpuMiner-Opt-JayDDee v3.22.1 (Slight bug fixes; See full changelog at https://github.com/JayDDee/cpuminer-opt/releases/tag/v3.22.1)
 *   HellMiner: fixed stats issues on v0.57+
